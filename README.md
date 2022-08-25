@@ -1,8 +1,8 @@
 # redux-toolkit
-<details><summary></summary>
+<details><summary>install</summary>
 
 ```js
-
+npm i @reduxjs/toolkit
 ```
 </details>
 
