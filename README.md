@@ -131,7 +131,7 @@ export default dataReducer.reducer
 import { useSelector, useDispatch } from 'react-redux'
 import { decreaseWithoutPayload, increaseWithPayload } from './xReducer'
 ...
-const numOfCakes = useSelector(state => state.cake.numOfCakes)
+const numOfCakes = useSelector(state => state.x.numOfCakes)
 const dispatch = useDispatch()
 ...
 onClick={() => dispatch(decreaseWithoutPayload())}
