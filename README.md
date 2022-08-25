@@ -136,6 +136,9 @@ const dispatch = useDispatch()
 ...
 onClick={() => dispatch(decreaseWithoutPayload())}
 onClick={() => dispatch(increaseWithPayload(5))}
+  
+<input type='number' value={value} onChange={e => setValue(parseInt(e.target.value))} />
+<button onClick={() => dispatch(increaseWithPayload(value))}> + </button>
 ```
 </details>
 
